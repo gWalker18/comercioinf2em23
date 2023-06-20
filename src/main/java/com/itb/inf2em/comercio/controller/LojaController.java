@@ -44,4 +44,10 @@ public class LojaController {
 		return "produtos";
 	}
 	
+	@GetMapping("/novo-produto")
+	public String novoProduto() {
+		
+		return "novo-prod";
+	}
+	
 }
